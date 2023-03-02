@@ -1,0 +1,27 @@
+Questão 1 
+
+- Como ocorre a criação do código fonte, a compilação, linkagem e a execução dos programas: 
+
+  Para a fase de criação do código fonte na linguagem C, inicialmente o programador deve escolher um editor de texto ou IDE e criar um arquivo com a extensão .c. Após isso, é realizada a compilação, em que é feita a verificação da sintaxe, caso durante o processo o compilador encontre algum erro, é exibida uma mensagem referente ao erro que o desenvolvedor cometeu. Com isso, deve-se voltar ao código fonte, corrigir oque há de errado e compilar mais uma vez. Feito isso, será gerado um código traduzido para linguagem de máquina. O código é armazenado em um arquivo com extensão .exe.
+  Para ajudar o programador na hora da codificação, pode-se utilizar o recurso de linkagem para fazer referência a funções já prontas encontradas em bibliotecas padrão ou em bibliotecas criadas pelo próprio programador. As bibliotecas são da extensão .h. Se encontrado algum erro na linkagem, deve-se corrigi-lo para que o programa possa ser executável.
+  Quando o programa estiver pronto para ser executado, ele deve ser carregado para a memória do computador, uma vez que isso acontece, a CPU  executa linha por linha o programa presente no código fonte.
+
+- Quais são os arquivos gerados em cada passo do processo:
+  O primeiro arquivo gerado é o .c, onde o programador irá desenvolver seu código fonte no processo de criação. No processo de compilação é gerado o arquivo .exe, responsável por tornar o código executável.
+
+- A razão pela qual o programa não pode ser executado diretamente em várias plataformas:
+
+  Programas em C não podem ser executados diretamente em várias plataformas pois cada uma delas possui especificações diferentes. Para cada plataforma o programador precisa de um compilador diferente para traduzir o código em C para a linguagem de máquina.
+
+- Comparar com o processo utilizado pela linguagem Python:
+
+  Durante o processo de criação existem bastante diferenças entre as linguagens, por exemplo:
+
+    Os programas C são salvos com a extensão .c. Já programas em 
+    python são salvos com a extensão .py; 
+    A sintaxe presente na linguagem C é muito mais complexa e 
+    específica que a sintaxe da  linguagem Python; 
+    Em C é necessário que o programador declare explicitamente o 
+    tipo da variável, já em Python, essa prática não é necessária;
+    C é uma linguagem compilada, já python é uma linguagem 
+    interpretada.
